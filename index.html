@@ -63,13 +63,13 @@
   <body class="noselect" align="center" style="background-color:White">
      
     <h1 style="color: teal;text-align:center;">Robotic Hand</h1>
-    <h2 style="color: teal;text-align:center;">Control your hand with our architecht!</h2>
+    <h2 style="color: teal;text-align:center;">Feel your Motion!</h2>
     
     <table id="mainTable" style="width:400px;margin:auto;table-layout:fixed" CELLSPACING=10>
       <tr/><tr/>
       <tr/><tr/>
       <tr>
-        <td style="text-align:left;font-size:25px"><b>Gripper:</b></td>
+        <td style="text-align:left;font-size:25px"><b>ForeFinger:</b></td>
         <td colspan=2>
          <div class="slidecontainer">
             <input type="range" min="0" max="180" value="90" class="slider" id="Gripper" oninput='sendButtonInput("Gripper",value)'>
@@ -78,7 +78,7 @@
       </tr> 
       <tr/><tr/>
       <tr>
-        <td style="text-align:left;font-size:25px"><b>Elbow:</b></td>
+        <td style="text-align:left;font-size:25px"><b>MiddleFinger:</b></td>
         <td colspan=2>
          <div class="slidecontainer">
             <input type="range" min="0" max="180" value="90" class="slider" id="Elbow" oninput='sendButtonInput("Elbow",value)'>
@@ -87,7 +87,7 @@
       </tr> 
       <tr/><tr/>      
       <tr>
-        <td style="text-align:left;font-size:25px"><b>Shoulder:</b></td>
+        <td style="text-align:left;font-size:25px"><b>RingFinger:</b></td>
         <td colspan=2>
          <div class="slidecontainer">
             <input type="range" min="0" max="180" value="90" class="slider" id="Shoulder" oninput='sendButtonInput("Shoulder",value)'>
@@ -96,7 +96,7 @@
       </tr>  
       <tr/><tr/>      
       <tr>
-        <td style="text-align:left;font-size:25px"><b>Base:</b></td>
+        <td style="text-align:left;font-size:25px"><b>LittleFinger:</b></td>
         <td colspan=2>
          <div class="slidecontainer">
             <input type="range" min="0" max="180" value="90" class="slider" id="Base" oninput='sendButtonInput("Base",value)'>
@@ -105,13 +105,13 @@
       </tr> 
       <tr/><tr/> 
       <tr>
-        <td style="text-align:left;font-size:25px"><b>Record:</b></td>
+        <td style="text-align:left;font-size:25px"><b>Record Motion:</b></td>
         <td><input type="button" id="Record" value="OFF" ontouchend='onclickButton(this)'></td>
         <td></td>
       </tr>
       <tr/><tr/> 
       <tr>
-        <td style="text-align:left;font-size:25px"><b>Play:</b></td>
+        <td style="text-align:left;font-size:25px"><b>Play Motion:</b></td>
         <td><input type="button" id="Play" value="OFF" ontouchend='onclickButton(this)'></td>
         <td></td>
       </tr>      
